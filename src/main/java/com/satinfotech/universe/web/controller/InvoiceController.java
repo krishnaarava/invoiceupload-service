@@ -1,4 +1,4 @@
-package com.satinfotech.universe.controller;
+package com.satinfotech.universe.web.controller;
 
 import java.util.Collection;
 
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.satinfotech.universe.model.Invoice;
+import com.satinfotech.universe.domain.Invoice;
 import com.satinfotech.universe.repository.InvoiceRepository;
 
 @RestController
-@RequestMapping("/invoices")
+@RequestMapping("/api/invoices")
 public class InvoiceController {
 
     @Autowired

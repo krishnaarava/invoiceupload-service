@@ -1,4 +1,4 @@
-package com.satinfotech.universe.model;
+package com.satinfotech.universe.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.satinfotech.universe.model.Invoice;
+import com.satinfotech.universe.domain.Invoice;
 
 public interface InvoiceRepository extends PagingAndSortingRepository<Invoice, Long> {
 
